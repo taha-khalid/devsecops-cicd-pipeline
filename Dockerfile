@@ -1,5 +1,5 @@
 # Build stage
-FROM node:20.12.2-alpine3.22 AS build
+FROM node:24-alpine3.22 AS build
 
 RUN apk update && apk upgrade --no-cache
 
