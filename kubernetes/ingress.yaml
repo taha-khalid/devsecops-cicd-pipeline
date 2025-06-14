@@ -7,6 +7,7 @@ metadata:
     # Add additional annotations as needed for your specific ingress controller
     # nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
+  ingressClassName: nginx  # Ensure this matches your ingress controller
   rules:
   - host: tic-tac-toe.tahakhalid.cloud  # Replace with your actual domain
     http:
